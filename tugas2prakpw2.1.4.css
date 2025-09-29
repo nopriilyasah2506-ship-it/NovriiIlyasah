@@ -1,0 +1,123 @@
+body{
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1697adb8-bfb5-49b1-85c1-efde49d71052/dcxuq07-97996a2d-1833-4256-bbf5-4b979098765b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE2OTdhZGI4LWJmYjUtNDliMS04NWMxLWVmZGU0OWQ3MTA1MlwvZGN4dXEwNy05Nzk5NmEyZC0xODMzLTQyNTYtYmJmNS00Yjk3OTA5ODc2NWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-EFscCgfd20S5YLV7vTF00MzWmP-IsRkEJ2ARYVcx-w");
+    width: 100%;
+    min-height: 100%vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+} 
+/* Reset CSS dasar */
+        * {
+            
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Navbar */
+        .navbar {
+            background: transparent;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(254, 251, 251);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .navbar a:hover {
+            background-color: #faf8f8;
+            color: rgb(18, 18, 18);
+            text-decoration: underline;
+        }
+        .search-bar {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: none;
+            border-radius: 4px;
+        }   
+
+/* Admin Panel */
+.admin-container  {
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #0c0c0c;
+  
+}
+
+.admin-container {
+  padding: 2rem;
+}
+
+/* Ukuran tabel dan font */
+.admin-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background-color: #fff;
+  transform: scale(1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.admin-table:hover {
+  transform: scale(1.02) ;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+/* Header tabel */
+.admin-table th {
+  background-color: #454545;
+  color: #ffffff;           
+  padding: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Isi tabel */
+.admin-table td {
+  padding: 0.5rem;
+  border: 1px solid #b8b8b8;
+  text-align: center;
+  color: #333333;            
+}
+
+/* Warna baris genap (opsional agar lebih nyaman dilihat) */
+.admin-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Judul halaman admin */
+.admin-container h2 {
+  color: #eeecec;              
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+/* Footer */
+        .footer {
+            background: transparent;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            clear: both;
+            margin-top: 50px;
+        }
+
+@media (max-width: 768px) {
+  .admin-table {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
